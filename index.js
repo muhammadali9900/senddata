@@ -24,6 +24,7 @@ $(document).ready(function () {
 
             .done(function (data) {
                 console.log(data);
+                window.location.href = "login.html";
             })
             .fail(function (error) {
                 console.error("Error:", error);
