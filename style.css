@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    margin-top: 5%;
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.formset {
+    width: 100%;
+    height: 60px;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+}
+
+.btnsubmit {
+    width: 160px;
+    height: 45px;
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
